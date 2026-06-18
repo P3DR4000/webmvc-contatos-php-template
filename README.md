@@ -75,6 +75,23 @@ webmvc-contatos-php-template/
 ├── LICENSE
 └── README.md
 ```
+## Explicação das camadas MVC
+
+### Controller
+A camada Controller recebe as requisições do usuário, processa os dados recebidos e coordena as ações da aplicação.
+
+### Service
+A camada Service concentra as regras de negócio e validações necessárias antes de acessar os dados.
+
+### Repository
+A camada Repository é responsável pela comunicação com o banco de dados utilizando consultas SQL e PDO.
+
+### View
+A camada View exibe as informações para o usuário por meio das páginas da aplicação.
+
+### Fluxo da aplicação
+
+Navegador → Controller → Service → Repository → Banco de Dados
 
 ## Como executar com XAMPP
 
